@@ -1,0 +1,333 @@
+@charset "utf-8";
+
+body, dd, dl, dt, h1, h2, h3, h4, h5, h6, li, p, ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+	outline: none;
+}
+
+img {
+	border: none;
+	cursor: pointer;
+}
+
+input {
+	font-family: "微软雅黑";
+	outline: none;
+}
+
+button {
+	transition: none !important;
+}
+
+::-ms-clear, ::-ms-reveal {
+	display: none;
+}
+
+.fl {
+	float: left;
+	width: 576px;
+	height: 57px;
+	background: url(../image/login/top_logo.png) no-repeat;
+	background-size: 100% 78%;
+	margin-top: 7px;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix:after {
+	content: "\200b";
+	clear: both;
+	display: block;
+	height: 0;
+}
+
+.pr {
+	position: relative;
+}
+
+.pa {
+	position: absolute;
+}
+
+.alignC {
+	text-align: center;
+}
+
+.content {
+	width: 100%;
+	height: auto;
+	background: url(../image/login/login_new.png) no-repeat;
+	background-size: 100% 100%;
+	flex: 1;
+}
+
+.content_main {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.content_img {
+	width: 1px;
+	height: 1px;
+	float: left;
+	margin-top: 50px;
+}
+
+.content_img img {
+	width: 1px;
+	height: 1px;
+}
+
+.content_login {
+	width: 370px;
+	height: 465px;
+	float: right;
+	border-radius: 1%;
+	margin: 15px 48px 30px 0;
+	z-index: 999;
+	left: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.3) !important;
+	filter: alpha(opacity = 60);
+}
+
+.login_opacity {
+	background: rgba(255, 255, 255, 0.3) !important;
+	filter: alpha(opacity = 90);
+	position: relative;
+	height: 465px;
+}
+
+.content_login li {
+	height: 65px;
+	line-height: 60px;
+	padding: 5px 40px;
+}
+
+#lines {
+	height: 4px;
+	background: url(../image/login/login_blue_line.png) no-repeat;
+}
+
+.content_login li div input {
+	height: 90%;
+	float: right;
+	border: none;
+	outline: none;
+	font-size: 1em;
+	width: 80%;
+}
+
+.content_login li:nth-child(3) div {
+	width: 100%;
+	height: 75%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: url(../image/login/login_user.png) left 15px center
+		no-repeat;
+	background-color: #F6F5F5;
+}
+
+.content_login li:nth-child(4) div {
+	width: 100%;
+	height: 75%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: url(../image/login/login_password.png) left 20px center
+		no-repeat;
+	background-color: #F6F5F5;
+}
+
+.content_login li:nth-child(5) div {
+	float: left;
+	width: 60%;
+	height: 73%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: url(../image/login/login_password.png) left 20px center
+		no-repeat;
+	background-color: #F6F5F5;
+}
+
+.content_login li:nth-child(5) img {
+	height: 48px;
+}
+
+.content_login li:nth-child(5) a {
+	float: left;
+	display: block;
+	height: 50px;
+	margin-left: 5px;
+}
+
+.content_login li:nth-child(6) {
+	height: 20px;
+	line-height: 20px;
+}
+
+.content_login li:nth-child(6) input {
+	width: 17px;
+	height: 17px;
+}
+
+.content_login li:nth-child(6) a {
+	float: right;
+	color: #1B55A9;
+}
+
+.content_login li:nth-child(7) {
+	text-align: center;
+}
+
+.content_login li:nth-child(7) button {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 17px;
+	background-color: #1B55A9;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.content_login li:nth-child(7) div {
+	line-height: 15px;
+}
+/*content end*/
+/* footer start */
+
+/* fotter end */
+.login_yanzheng {
+	line-height: 20px !important;
+	color: red;
+}
+
+/* 弹出页面 */
+.ex_shuiwu_PopWinbg, .ex_shuiwu_PopWinbg1 {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.ex_shuiwu_PopWinContent {
+	width: 550px;
+	height: 270px;
+	background: #fff;
+	border-radius: 7px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+.ex_shuiwu_PopWinContent table tr td {
+	width: 400px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.ex_shuiwu_PopWinContent table tr:nth-child(1) td {
+	width: 0;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	color: #1B55A9;
+}
+
+.ex_shuiwu_PopWinContent table {
+	margin: 10px auto;
+}
+
+.ex_shuiwu_PopWinContent table input {
+	width: 90%;
+	height: 40px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.ex_shuiwu_PopWinContent table tr td button {
+	border: none;
+	width: 90%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;
+	background: #1B55A9;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	letter-spacing: 2px;
+	margin-top: 15px;
+}
+
+.ex_shuiwu_Close_PopWin {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 10px;
+	right: 12px;
+	cursor: pointer;
+	background: url(../image/icon/closepopwinbtn.png) no-repeat;
+}
+
+.yzm_input {
+	position: relative;
+}
+
+.yzm_btn {
+	position: absolute;
+	top: 22px;
+	right: 25px;
+}
+
+#btn {
+	height: 90%;
+	margin-top: 0;
+	margin-left: 15px;
+	border: 0;
+	background: #fff;
+	color: #1B55A9;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.yzm_btn:hover {
+	color: #1B55A9;
+}
+
+.yz_sure {
+	color: #fff;
+	cursor: pointer;
+}

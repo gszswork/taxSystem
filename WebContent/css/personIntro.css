@@ -1,0 +1,213 @@
+.intro_body{
+    width: 100%;
+    height: auto;
+}
+/*--个人资料和数据--*/
+.data1{
+    width:100%;
+}
+.element_left,.element_right{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.data_left{
+    float: right;
+    width: 72.5%;
+    height: 258px;
+    margin: 3% 0.75% 3% 0%;
+}
+.data_right{
+    width: 72.5%;
+    height: 258px;
+    margin: 3% 0 3% 0.75%;
+}
+.data_left_1,.data_right_1{
+    width: 100%;
+    height: 50px;
+    background:#265CAD;
+    text-align: center;
+}
+.data_left_1 p,.data_right_1 p{
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 5%;
+}
+.data_left_1 p a{
+    position: relative;
+    right: 7%;
+    top: 3%;
+    float: right;
+    color: #FFFFFF;
+}
+.data_left_1 p a span{
+    position: relative;
+    top: -3px;
+    right: 2px;
+    font-size: 0.85em;
+    color: #FFFFFF;
+}
+.data_left_2{
+    width: 100%;
+    height: 100%;
+    background: url("../image/personbg.png") no-repeat;
+}
+.data_right_2{
+    width: 100%;
+    height: 100%;
+    background: url(../image/personbgone.png) no-repeat;
+}
+.data_left_2_left,.data_left_2_right{
+    display: inline;
+}
+.data_left_2 img{
+    float: left;
+    width: 15.5%;
+    height: auto;
+    padding: 10% 13% 15% 4%;
+}
+.data_left_2_right_1{
+    padding-top: 5%;
+}
+.data_right_2_1{
+    padding-top: 7%;
+}
+.data_left_2_right_2,.data_right_2_2{
+    margin-top: 3%;
+}
+.data_right_2_1,.data_left_2_right_2,.data_right_2_2{
+    margin-left: 20%;
+}
+
+.data_left_2_right_3{
+    margin-top: 2.8%;
+    margin-bottom: 3%;
+    width:280px;
+    height:105px;/*
+    overflow:scroll;
+    overflow-x:visible;*/
+    overflow: auto;
+    text-overflow:ellipsis;
+}
+.xian3{
+    width: 74%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #D4D5D4;
+}
+/*--//个人资料和数据--*/
+/*--第二部分 --*/
+.models2{
+    width: 100%;
+    height: auto;
+}
+.model_tab{
+    width: 50%;
+    height: auto;
+    float:left;
+    position: relative;
+}
+.model_content{
+    width: 71%;
+    margin: 3% 1.3%;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.tab_title{
+    width: 100%;
+    height: 50px;
+    background-color: #EEEEEE;
+}
+.tab_title li{
+    width:auto;
+    padding-right: 30px;
+    height: 60px;
+    float: left;
+    cursor:pointer;
+}
+.tab_title li a{
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    color:#1b55a9;
+    text-align:left;
+    display: block;
+}
+.small_more{
+    position:relative;
+    right:1px;
+    top:-29px;
+}
+.small_more .youxiu_up_more{
+    font-size: 16px;
+}
+/*下面这个包含了标题下蓝色的那一条线*/
+.tab_li_active{
+    max-height:55px;
+    min-height: 55px;
+    font-size:20px;
+    border-bottom:2px solid #215BAB;
+}
+.tab_content{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.tab_content ul{
+    border-bottom: 1px dashed #ccc;
+    height: 75px;
+    padding-top: 10px;
+}
+#tab_content2 ul{
+    height: 105px;
+}
+.tab_content_li_1{
+    width: 97%;
+    float: left;
+}
+.tab_content ul li,.tab_content ul li a{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.tab_content_li_1_a{
+    display: inline-block;
+    width: 78%;
+}
+.tab_content ul a{
+    color: black;
+}
+.tab_content_li_1_date{
+    float: right;
+}
+.tab_content ul li:nth-child(2){
+    float: left;
+    margin-top: 3%;
+    width: 25%;
+}
+.tab_content ul li:nth-child(3){
+    float: left;
+    margin-top: 3%;
+    /*margin-left: 12%;*/
+    width: 24%;
+}
+.tab_content ul li:nth-child(4){
+    float: left;
+    margin-top: 3%;
+    /*margin-left: 11%;*/
+    width: 31%;
+}
+.tab_content ul li:nth-child(5){
+    float: left;
+    margin-top: 3%;
+    width: 20%;
+    /*margin-right: 7%;*/
+}
+/*--//第二部分--*/
+/*--第三部分--*/
+/*--//第三部分--*/

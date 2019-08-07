@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1440px) {
+.top .logo {
+		width: 720px;
+		height: 34px;
+		background: url(../image/header/520.png) no-repeat;
+		position: relative;
+		background-size: 100% 100%;
+		margin: 35px 30px;
+	}
+}
+
+@media screen and (max-width: 1366px) {
+	.top .logo {
+	   width: 720px;
+		height: 34px;
+		background: url(../image/header/520.png) no-repeat;
+		position: relative;
+		background-size: 100% 100%;
+		margin: 35px 30px;
+	}
+	
+}
+
+@media screen and (max-width: 1280px) {
+	.top .logo {
+		width: 640px;
+		height: 32px;
+		background: url(../image/header/490.png) no-repeat;
+		position: relative;
+		background-size: 100% 100%;
+		margin: 35px 30px;
+	}
+	
+}
+
+@media screen and (max-width: 1024px) {
+	.top .logo {
+		width: 480px;
+		height: 24px;
+		background: url(../image/header/380.png) no-repeat;
+		position: relative;
+		background-size: 100% 100%;
+		margin: 40px 35px;
+	}
+}
