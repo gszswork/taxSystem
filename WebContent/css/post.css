@@ -1,0 +1,225 @@
+@charset "utf-8";
+/*content start*/
+.detial_body {
+	background: #eee !important;
+}
+
+.shuiwu_main {
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.content {
+	width: 1200px;
+	margin: 0 auto;
+	height: 55px;
+}
+
+.content_title {
+	width: 100%;
+}
+
+.content_title span {
+	font-weight: normal;
+	font-size: 22px;
+	padding-top: 25px;
+	display: block;
+	margin-left: 13px;
+}
+
+.uesr_who {
+	width: 700px;
+	height: 40px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.uuser img {
+	width: 45px;
+	border-radius: 50%;
+}
+
+.uuser {
+	width: 250px;
+}
+
+.user_name {
+	color: blue;
+}
+
+hr {
+	width:1400px;
+    display: block;
+    unicode-bidi: isolate;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.article {
+	float:left;
+	line-height: 15px;
+	margin: 10px auto;
+	text-indent: 2em;
+}
+
+.article p {
+	text-indent: 2em;
+	line-height: 25px;
+	padding: 0 10px;
+}
+
+.uesr_whodel div {
+	height: 10px;
+	float: right;
+	line-height: 53px;
+	padding: 0 25px;
+}
+/* 弹出框  	*/
+.quesContent_spanOne {
+	margin-right: 20px;
+	cursor: pointer;
+	float: right;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.quesContent_spanTwo {
+	margin-left: 20px;
+	cursor: pointer;
+	float: right;
+	margin-right: 27px;
+}
+
+.quesContent_spanTwo:hover {
+	color: red;
+}
+
+.ex_shuiwu_PopWinbg {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.ex_shuiwu_PopWinContent {
+	width: 900px;
+	height: 600px;
+	background: #fff;
+	border-radius: 7px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+.ex_shuiwu_PopWinContent table tr td {
+	text-align: right;
+}
+
+.ex_shuiwu_PopWinContent table tr:nth-child(1) td {
+	width: 0;
+	height: 53px;
+	line-height: 53px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.ex_shuiwu_PopWinContent table {
+	margin: 0 auto;
+}
+
+.ex_shuiwu_PopWinContent table tr:nth-child(3) td textarea {
+	width: 100%;
+	height: 100%;
+	outline: none;
+	resize: none;
+	font-size: 17px;
+}
+
+.ex_shuiwu_PopWinContent table tr td button {
+	border: none;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;
+	background: #1B55A9;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	border-radius: 10px;
+	letter-spacing: 2px;
+	margin-top: 15px;
+}
+
+.ex_shuiwu_Close_PopWin {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 10px;
+	right: 12px;
+	cursor: pointer;
+	background: url(../image/icon/closepopwinbtn.png) no-repeat;
+}
+
+.ex_shuiwu_button {
+	width: 50%;
+	height: 35px;
+	margin: 20px auto;
+}
+
+.ex_shuiwu_button input {
+	width: 40%;
+	height: 100%;
+	background-color: #255DAB;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/* 导航路径 */
+.path_nav {
+	width: 100%;
+	margin-top: 10px;
+	height: 35px;
+	/* border-bottom:1px dashed #333; */
+}
+
+.path_nav span {
+	line-height: 30px;
+}
+
+.nav_style {
+	color: #000;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.nav_style:hover {
+	color: #1B55A9;
+}

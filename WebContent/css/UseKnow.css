@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+.content {
+	width: 1188px;
+	height: auto;
+	min-height: 1000px;
+	margin: 40px auto;
+	background-color: #eeeeee;
+}
+
+.content_main {
+	width: 1100px;
+	height: auto;
+	margin: 40px auto;
+}
+
+.content_main_list {
+	margin: 22px 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.content_main_list p {
+	padding: 5px 5px;
+}
+
+.content_main_list a {
+	color: rgb(26, 86, 169);
+}
+
+.content_share {
+	width: 1100px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+.content_share a {
+	color: #000;
+	line-height: 60px;
+}
+/* 导航路径 */
+.path_nav {
+	width: 100%;
+	margin-top: 10px;
+	height: 35px;
+	border-bottom: 1px dashed #333;
+}
+
+.path_nav span {
+	line-height: 30px;
+}
+
+.nav_style {
+	color: #000;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.nav_style:hover {
+	color: #1B55A9;
+}

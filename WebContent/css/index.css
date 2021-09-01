@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000
+}
+
+body {
+	/* background: #efefef; */
+	min-width: 1200px;
+	overflow-x: hidden;
+}
+
+.liuan_main {
+	height: auto;
+	margin: auto;
+	min-width: 1200px;
+}
+
+.liuan_main_headerContent {
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+
+.liuan_header_newsplay {
+	width: 1200px;
+	height: 45px;
+	margin: 0 auto;
+	line-height: 45px;
+	background: url(../../image/home/suona.png) left no-repeat;
+}
+
+.newsplaytext {
+	height: 45px;
+}
+
+.newsplaytext_list {
+	height: 45px;
+	overflow: hidden;
+}
+
+.newsplaytext_content ul li {
+	font-size: 15px;
+	font-family: Microsoft YaHei;
+	text-align: left;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+.clearfix {
+	content: "\200b";
+	clear: both;
+	display: block;
+	height: 0;
+}
+/* 搜索  */
+/* new */
+/*	轮播图	  */
+
+/*	轮播图	 end  */
+/*	智能客服  */
+.customer_service {
+	width: 145px;
+	height: 55px;
+	position: absolute;
+	right: 2%;
+	top: 57%;
+	z-index: 999;
+}
+
+.luan_kefu {
+	width: 165px;
+	height: 70px;
+	border-radius: 10px;
+	background: #1B55A9;
+	display: inline-block;
+}
+
+.kefu_logo {
+	width: 45px;
+	margin: 13px 10px;
+	float: left;
+}
+
+.talk {
+	color: #fff;
+	display: inline;
+	float: right;
+	font-size: 18px;
+	margin: 4px 12px;
+	font-weight: lighter;
+}
+/* 首页搜索框  */
+.indexSearch {
+	width: 160px;
+	height: 35px;
+	border: 1px solid #1B55A9;
+	line-height: 100px;
+	margin-top: 31px;
+	border-radius: 7px;
+	position: absolute;
+	top: 17%;
+	right: 10%;
+	z-index: 99;
+}
+
+.fangdajing {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 3px 6px;
+}
+
+.sousuo {
+	float: right;
+	width: 110px;
+	height: 33px;
+	border: none;
+	border-left: 1px solid #1B55A9;
+	box-sizing: border-box;
+	margin: 1px 4px 0 0;
+	padding-left: 8px;
+	color: #1B55A9;
+	resize: none;
+	outline: none;
+	background: none;
+}
+/*	客服弹窗    */
+/* .pop-body {
+	display: none;
+	background: #000;
+	position: absolute;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+}
+
+.cs_wrap .close {
+	font-size: 30px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	border: 1px solid;
+}
+
+common
+.cs_wrap {
+	background: -webkit-linear-gradient(#5895D7, #98B9E0, #C1C6DC);
+	top: 50%;
+	left: 50%;
+	margin-top: -290px;
+	margin-left: -400px;
+	width: 800px;
+	height: 580px;
+	position: absolute;
+	display: none;
+	z-index: 1100;
+}
+
+.pic_top {
+	width: 400px;
+	height: 80px;
+	margin: 10px auto;
+}
+
+.pic_top img {
+	width: 100%;
+	height: 100%;
+}
+ 主界面 
+.popups {
+	width: 700px;
+	height: 400px;
+	background: #fff;
+	border-radius: 20px 20px 0 0;
+	margin: 20px auto;
+}
+
+.title {
+	width: 100%;
+	height: 35px;
+	position: relative;
+	border-radius: 20px 20px 0 0;
+	background: -webkit-linear-gradient(left, #1E63C7, #2C72D6, #4F96FC);
+}
+
+.title img {
+	width: 37px;
+	height: 65px;
+	position: absolute;
+	top: -88%;
+	left: 3%;
+}
+
+.zaixian {
+	color: #fff;
+	line-height: 35px;
+	margin-left: 65px;
+}
+
+.telnum {
+	color: #fff;
+	font-size: 12px;
+	float: right;
+	line-height: 35px;
+	margin-right: 25px;
+}
+
+.clearfix:after {
+	content: "\200b";
+	clear: both;
+	display: block;
+	height: 0;
+}
+ 对话界面 
+.content_left {
+	width: 70%;
+	height: 200px;
+	overflow: auto;
+	float: left;
+}
+ 税收种类 
+.content_right {
+	width: 22%;
+	float: right;
+	height: 200px;
+	border-left: 1px solid #eee;
+}
+
+.hotquestion {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #eee;
+	color: #6D91D4;
+}
+
+.tax_type {
+	width: 80%;
+	height: 160px;
+	margin: 5px auto;
+}
+
+.tallage li {
+	font-size: 13px;
+	line-height: 20px;
+}
+ 分页 
+.box {
+	width: 80%;
+	height: 25px;
+	margin: 13px auto;
+}
+
+.previous, .next_page {
+	display: inline-block;
+	width: 23px;
+	background: #eee;
+	color: #fff;
+	text-align: center;
+	height: 23px;
+	cursor: pointer;
+}
+发送消息
+.foot {
+	border-top: 1px solid #eee;
+}
+
+.send_message {
+	width: 80%;
+	height: 130px;
+	margin: 10px 15px;
+	outline: none;
+	resize: none;
+	font-family: 微软雅黑;
+	font-weight: normal;
+	border: none;
+}
+
+.send {
+	width: 70px;
+	height: 35px;
+	border-radius: 17px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	position: absolute;
+	bottom: 16%;
+	right: 10%;
+} */

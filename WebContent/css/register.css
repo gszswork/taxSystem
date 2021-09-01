@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+body, dd, dl, dt, h1, h2, h3, h4, h5, h6, li, p, ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+	outline: none;
+}
+
+img {
+	border: none;
+	cursor: pointer;
+}
+
+input {
+	font-family: "微软雅黑";
+	outline: none;
+}
+
+button {
+	transition: none !important;
+}
+
+.fl {
+	float: left;
+	width: 576px;
+	height: 57px;
+	background: url(../image/login/top_logo.png) no-repeat;
+	background-size: 100% 78%;
+	margin-top: 7px;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix:after {
+	content: "\200b";
+	clear: both;
+	display: block;
+	height: 0;
+}
+
+.pr {
+	position: relative;
+}
+
+.pa {
+	position: absolute;
+}
+
+.alignC {
+	text-align: center;
+}
+
+.content {
+	width: 100%;
+	height: auto;
+	background: url(../image/login/register_22.png) no-repeat;
+	background-size: 100% 100%;
+	flex: 1;
+}
+
+.content_main {
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content_middle {
+	width: 370px;
+	height: 415px;
+	float: right;
+	background: #fff;
+	background-size: 100% 90%;
+	margin: 40px;
+	border-radius: 5px;
+	z-index: 999;
+	left: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.86) !important;
+	filter: alpha(opacity = 60);
+}
+
+.content_middle_m {
+	
+}
+
+.content_middle_m table td {
+	padding-top: 40px;
+}
+
+.content_middle_m table td input {
+	width: 350px;
+	height: 40px;
+	border: 1px solid #333;
+	border-radius: 5px;
+}
+
+.Img {
+	width: 80px;
+	height: 40px;
+	vertical-align: middle;
+	margin-left: 30px;
+}
+/*注册按钮*/
+.content_middle_btn {
+	text-align: center;
+	padding: 60px 42px;
+}
+
+.save_btn {
+	display: block;
+	width: 270px;
+	height: 48px;
+	line-height: 48px;
+	color: #fff;
+	text-align: center;
+	background-color: #1B55A9;
+	border: 1px solid #ccc;
+	margin-top: 40px;
+}

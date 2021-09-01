@@ -1,0 +1,251 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.fl {
+	float: left;
+}
+
+.box {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	width: 955px;
+	margin-left: 120px;
+}
+
+.box button {
+	padding: 0 10px;
+	margin: 0 10px;
+	height: 40px;
+	float: left;
+	cursor: pointer;
+	border: 1px solid #ebebeb;
+	background-color: #ffffff;
+	font-size: 17px;
+	outline: none;
+}
+
+.box .first-page, .box .last-page {
+	margin: 0;
+	font-size: 17px;
+}
+
+.box .pageWrap {
+	height: 40px;
+	float: left;
+	overflow: hidden;
+}
+
+.box .pageWrap ul {
+	width: 100000px;
+	height: 40px;
+	float: left;
+}
+
+.box .pageWrap ul li {
+	width: 60px;
+	height: 40px;
+	border: 1px solid #ebebeb;
+	line-height: 40px;
+	box-sizing: border-box;
+	cursor: pointer;
+	float: left;
+	color: black;
+	font-size: 17px;
+	margin-left: 0;
+}
+
+.box .pageWrap ul .sel-page {
+	background-color: #1B55A9;
+	color: white;
+	font-size: 17px;
+}
+
+.box .jump-text {
+	width: 60px;
+	height: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0 5px;
+	float: left;
+	font-size: 17px;
+}
+
+.box .jump-button {
+	margin: 0;
+	float: left;
+}
+
+.box .total-pages, .box .total-count {
+	margin-left: 10px;
+	float: left;
+	font-size: 17px;
+}
+
+.fl_2 {
+	float: left;
+}
+
+.box_2 {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	width: 955px;
+	margin-left: 120px;
+}
+
+.box_2 button {
+	padding: 0 10px;
+	margin: 0 10px;
+	height: 40px;
+	float: left;
+	cursor: pointer;
+	border: 1px solid #ebebeb;
+	background-color: #ffffff;
+	font-size: 17px;
+	outline: none;
+}
+
+.box_2 .first-page_2, .box_2 .last-page_2 {
+	margin: 0;
+	font-size: 17px;
+}
+
+.box_2 .pageWrap_2 {
+	height: 40px;
+	float: left;
+	overflow: hidden;
+}
+
+.box_2 .pageWrap_2 ul {
+	width: 100000px;
+	height: 40px;
+	float: left;
+}
+
+.box_2 .pageWrap_2 ul li {
+	width: 60px;
+	height: 40px;
+	border: 1px solid #ebebeb;
+	line-height: 40px;
+	box-sizing: border-box;
+	cursor: pointer;
+	float: left;
+	color: black;
+	font-size: 17px;
+	margin-left: 0;
+}
+
+.box_2 .pageWrap_2 ul .sel-page {
+	background-color: #1B55A9;
+	color: white;
+	font-size: 17px;
+}
+
+.box_2 .jump-text_2 {
+	width: 60px;
+	height: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0 5px;
+	float: left;
+	font-size: 17px;
+}
+
+.box_2 .jump-button_2 {
+	margin: 0;
+	float: left;
+}
+
+.box_2 .total-pages_2, .box_2 .total-count_2 {
+	margin-left: 10px;
+	float: left;
+	font-size: 17px;
+}
+
+.fl_3 {
+	float: left;
+}
+
+.box_3 {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	width: 955px;
+	margin-left: 120px;
+}
+
+.box_3 button {
+	padding: 0 10px;
+	margin: 0 10px;
+	height: 40px;
+	float: left;
+	cursor: pointer;
+	border: 1px solid #ebebeb;
+	background-color: #ffffff;
+	font-size: 17px;
+	outline: none;
+}
+
+.box_3 .first-page_3, .box_3 .last-page_3 {
+	margin: 0;
+	font-size: 17px;
+}
+
+.box_3 .pageWrap_3 {
+	height: 40px;
+	float: left;
+	overflow: hidden;
+}
+
+.box_3 .pageWrap_3 ul {
+	width: 100000px;
+	height: 40px;
+	float: left;
+}
+
+.box_3 .pageWrap_3 ul li {
+	width: 60px;
+	height: 40px;
+	border: 1px solid #ebebeb;
+	line-height: 40px;
+	box-sizing: border-box;
+	cursor: pointer;
+	float: left;
+	color: black;
+	font-size: 17px;
+	margin-left: 0;
+}
+
+.box_3 .pageWrap_3 ul .sel-page {
+	background-color: #1B55A9;
+	color: white;
+	font-size: 17px;
+}
+
+.box_3 .jump-text_3 {
+	width: 60px;
+	height: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0 5px;
+	float: left;
+	font-size: 17px;
+}
+
+.box_3 .jump-button_3 {
+	margin: 0;
+	float: left;
+}
+
+.box_3 .total-pages_3, .box_3 .total-count_3 {
+	margin-left: 10px;
+	float: left;
+	font-size: 17px;
+}
