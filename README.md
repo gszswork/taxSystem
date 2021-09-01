@@ -1,4 +1,3 @@
 # taxSystem  
- This program was finished before I got my bachelor degree with my teammates.  
- My job is the back-end. I finished the 'src'
- Thanks to my teammates for their efforts.
+ A Tax Communication Forum for Anhui province, China, implemented in Java Server Page (JSP) and MySQL database. 
+ 
