@@ -32,11 +32,7 @@
     <a href="http://anhui.chinatax.gov.cn/col/col9418/index.html"><strong>Explore current website. »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View the page</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+
   </p>
 </p>
 
