@@ -71,21 +71,21 @@
 
 ![alt text](images/screenshot.png)
 
-This is a Tax Forum Website System finished in 2018, during my internship in Shandong University Website Labortory, in a group of four. I majorred in the back-end. This website is the primary version of Anhui Provincial Tax Service Weibsite's communication part, aims to help small and medium-sized enterprises conduct financial consulting and experience exchanges. 
+This is a Tax Forum Website System finished in 2018, during my summor internship in Shandong University Website Labortory, in a group of four. I majorred in the back-end. This website is the primary version of Anhui Provincial Tax Service Weibsite's communication part, aims to help small and medium-sized enterprises conduct financial consulting and experience exchanges. 
 
 The functions include:
 * Users register and login, website managers (administrators) authority.  
-* Users can communicate between users via messaging, posting, replying to posts. Users can ask questions to us. 
+* Users can communicate between users via messaging, posting, replying to posts. Users can ask questions to experts for replies. 
 * Managers can edit can delete users' posts and replies. Manager can edit users' access and block users who behave illegally.
 
 
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Java Server Page (JSP)](https://getbootstrap.com)
-* [HTML5](https://jquery.com)
-* [Tomcat 7.0](https://laravel.com)
-* [MySQL]
+* [Java Server Page (JSP)](https://www.oracle.com/java/technologies/jspt.html)
+* [HTML5](https://html5.org/)
+* [Tomcat 7.0](http://tomcat.apache.org/)
+* [MySQL](https://www.oracle.com/au/mysql/)
 
 
 
@@ -97,56 +97,20 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Install the prerequisites
+* Install Tomcat 7.0 and IDE (eg. Eclipse)
+* Install Oracle MySQL
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. GET your IDE ready with Topcat 7.0
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/gszswork/taxSystem.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+3. Link your MySQL database on and load the database.
+4. Run the project on Server
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 
 
@@ -160,42 +124,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - danielkung1997@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+Project Link: [https://github.com/gszswork/taxSystem](https://github.com/gszswork/taxSystem)
 
 
 
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
