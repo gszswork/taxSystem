@@ -27,12 +27,12 @@
   <h3 align="center">Tax-Forum-System</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A primary version of Anhui Provincial Tax Service Website's communication part. 
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="http://anhui.chinatax.gov.cn/col/col9418/index.html"><strong>Explore current website. »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/othneildrew/Best-README-Template">View the page</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
